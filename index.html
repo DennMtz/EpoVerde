@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoJardines Escolares</title>
+
+    <style>
+
+        body{
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2fff2;
+            color: #333;
+        }
+
+        header{
+            background-color: #2e8b57;
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+
+        header h1{
+            margin: 0;
+            font-size: 45px;
+        }
+
+        nav{
+            background-color: #228b22;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a{
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav a:hover{
+            color: yellow;
+        }
+
+        section{
+            padding: 40px;
+        }
+
+        h2{
+            color: #2e8b57;
+            font-size: 30px;
+        }
+
+        p{
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        ul{
+            font-size: 18px;
+        }
+
+        img{
+            width: 100%;
+            max-width: 500px;
+            border-radius: 15px;
+            margin-top: 20px;
+        }
+
+        .contenedor{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .tarjeta{
+            background-color: white;
+            width: 300px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        footer{
+            background-color: #2e8b57;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>EcoJardines Escolares</h1>
+        <p>Proyecto transversal sobre jardines y cuidado del medio ambiente</p>
+    </header>
+
+    <nav>
+        <a href="#importancia">Importancia</a>
+        <a href="#mantenimiento">Mantenimiento</a>
+        <a href="#medioambiente">Medio Ambiente</a>
+        <a href="#galeria">Galería</a>
+    </nav>
+
+    <section id="importancia">
+        <h2>Importancia de los jardines</h2>
+
+        <p>
+            Los jardines ayudan a mejorar el aire, reducir la contaminación y
+            hacer más agradables los espacios escolares. También ayudan a crear
+            conciencia sobre el cuidado de la naturaleza.
+        </p>
+
+        <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?q=80&w=1200&auto=format&fit=crop" alt="Jardín">
+    </section>
+
+    <section id="mantenimiento">
+        <h2>Mantenimiento de jardines</h2>
+
+        <div class="contenedor">
+
+            <div class="tarjeta">
+                <h3>Riego</h3>
+                <p>Las plantas necesitan agua constante para mantenerse saludables.</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Poda</h3>
+                <p>Es importante quitar hojas secas y ramas dañadas.</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Limpieza</h3>
+                <p>Un jardín limpio mejora el ambiente y evita plagas.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="medioambiente">
+        <h2>Cuidado del medio ambiente</h2>
+
+        <p>
+            Cuidar el medio ambiente es responsabilidad de todos. Acciones como
+            reciclar, plantar árboles y mantener áreas verdes ayudan a proteger
+            nuestro planeta.
+        </p>
+
+        <ul>
+            <li>Reciclar materiales</li>
+            <li>Ahorrar agua</li>
+            <li>Plantar árboles</li>
+            <li>Evitar tirar basura</li>
+        </ul>
+    </section>
+
+    <section id="galeria">
+        <h2>Galería</h2>
+
+        <div class="contenedor">
+
+            <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?q=80&w=1200&auto=format&fit=crop" alt="Plantas">
+
+            <img src="https://images.unsplash.com/photo-1492496913980-501348b61469?q=80&w=1200&auto=format&fit=crop" alt="Naturaleza">
+
+        </div>
+    </section>
+
+    <footer>
+        <p>Proyecto Escolar 2026 | EcoJardines Escolares</p>
+    </footer>
+
+</body>
+</html>
